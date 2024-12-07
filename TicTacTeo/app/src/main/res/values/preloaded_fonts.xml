@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/agbalumo</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/alike_angular</item>
+        <item>@font/amita</item>
+        <item>@font/bagel_fat_one</item>
+        <item>@font/bangers</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/charm</item>
+        <item>@font/gentium_book_basic</item>
+        <item>@font/metamorphous</item>
+    </array>
+</resources>

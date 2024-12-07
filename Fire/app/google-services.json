@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "108016427922",
+    "project_id": "firetest-919ab",
+    "storage_bucket": "firetest-919ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108016427922:android:44d1f8e85fe76ec724974b",
+        "android_client_info": {
+          "package_name": "com.example.fire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeDQlBaiJlFpviaSFTvDt7Cl3pbfjWk18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

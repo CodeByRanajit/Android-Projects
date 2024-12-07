@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="389dp"
+        android:layout_height="352dp"
+        android:src="@drawable/top_grey_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        tools:layout_editor_absoluteX="2dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+        android:id="@+id/back_to_exp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/intro_button"
+        android:src="@drawable/back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@android:drawable/dialog_frame"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is header area"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner"
+        android:padding="6dp"
+        android:text="$150"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buy_now"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:background="@drawable/banner"
+        android:text="Buy Now"
+        style="@android:style/Widget.Button"
+        android:textAlignment="center"
+        android:backgroundTint="#FBC00F"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="0dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_to_cart"
+        android:layout_width="215dp"
+        android:layout_height="60dp"
+        android:background="@drawable/banner"
+        android:backgroundTint="#8E98D3"
+        style="@android:style/Widget.Button"
+        android:text="Add to cart"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- TextView with a clickable hyperlink -->
+    <TextView
+        android:id="@+id/hyperlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Google"
+        android:autoLink="web"
+        android:textColorLink="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+    <!-- ImageView to perform an action on click -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="Clickable Image"
+        android:focusable="true"
+        android:padding="16dp"
+        android:src="@drawable/group" />
+
+</LinearLayout>

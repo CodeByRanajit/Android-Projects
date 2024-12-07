@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity"
+    android:background="@drawable/menu_bg"
+    android:gravity="bottom">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Good Morning"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:paddingBottom="250dp"
+        android:layout_marginLeft="20dp"
+
+        android:shadowColor="#80555454"
+        android:shadowDx="15"
+        android:shadowDy="15"
+        android:shadowRadius="5"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/alata"
+                android:paddingBottom="10dp"
+                android:shadowColor="#80DCD7D7"
+                android:shadowDx="10"
+                android:shadowDy="15"
+                android:shadowRadius="4"
+                android:text="Select Category"
+                android:textAlignment="center"
+                android:textColor="#EDEEF4"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:background="@drawable/gradient1"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:layout_margin="10dp">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_1"
+                            android:layout_marginLeft="10dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ice-Drink"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //-------------------------------------------
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_2"
+                            android:layout_marginLeft="10dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hot-Drink"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //---------------------------------------------
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_3"
+                            android:layout_marginLeft="10dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hot-Coffee"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //************************************************
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="101dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_4"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_4"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ice-Coffee"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //-------------------------------------------
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_5"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_5"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Brewing"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //---------------------------------------------
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_6"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_6"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Shake"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:layout_marginLeft="12dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                //******************************************************
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="101dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_7"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_7"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Resurant"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //-------------------------------------------
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_8"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_8"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Breakfast"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                //---------------------------------------------
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="top"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/ic_9"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ic_9"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cake"
+                            android:paddingTop="5dp"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:layout_marginLeft="18dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

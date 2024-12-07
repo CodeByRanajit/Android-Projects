@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/cofee"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="133dp"
+        android:fontFamily="@font/allan"
+        android:text="&quot;Coffee is the magical elixir that turns 'leave me alone' into 'let’s do this!'&quot;"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Get Started"
+        android:textSize="34sp"
+        android:textAlignment="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

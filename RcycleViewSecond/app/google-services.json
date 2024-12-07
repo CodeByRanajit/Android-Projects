@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047811193696",
+    "project_id": "rvsecond-86d7c",
+    "storage_bucket": "rvsecond-86d7c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047811193696:android:f7b9d109148539944c7c05",
+        "android_client_info": {
+          "package_name": "com.example.rcycleviewsecond"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTtIpJqYWCkCvOSQ8QHlhXRGiRunAxMp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/tx1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter first number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tx2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter second number"
+        android:layout_below="@id/tx1"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tx2"
+        android:text="Calculate Sum" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/b"
+        android:text="Clear" />
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b"
+        android:text="Result" />
+
+</RelativeLayout>

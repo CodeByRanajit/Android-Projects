@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363431316423",
+    "project_id": "fireteast1",
+    "storage_bucket": "fireteast1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363431316423:android:03d8223cf0174fd056a7e2",
+        "android_client_info": {
+          "package_name": "com.example.firebaseteast1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs0tMRUem1FjUnFPn9FMRuPR0u77zDQi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

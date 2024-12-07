@@ -1,0 +1,19 @@
+<!-- res/drawable/bottom_gradient.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Image -->
+    <item>
+        <bitmap
+            android:src="@drawable/menu_bg"
+            android:gravity="fill" />
+    </item>
+
+    <!-- Gradient Overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#00000000"
+                android:endColor="#80353232"
+                android:angle="270" />
+        </shape>
+    </item>
+</layer-list>

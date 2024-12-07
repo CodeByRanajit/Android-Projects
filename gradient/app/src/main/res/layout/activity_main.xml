@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu_bg"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:text="login"
+        android:textSize="34dp"
+        android:textColor="@color/white"
+        android:id="@+id/myButton"
+        android:layout_marginTop="300dp"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        style="@android:style/Widget.Button"
+        android:background="@drawable/login_button"/>
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        style="@android:style/Widget.Button"
+        android:background="@drawable/button"
+        android:padding="8dp"
+        android:text="Gradient Border Button"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
